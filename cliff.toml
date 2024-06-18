@@ -25,7 +25,7 @@ body = """
 
 ### Details\
 
-{% for group, commits in commits | filter(attribute="merge_commit", value=false) | filter(attribute="author.name", value="github-actions[bot]", value=false) | group_by(attribute="group")%}
+{% for group, commits in commits | filter(attribute="merge_commit", value=false) | group_by(attribute="group")%}
     #### {{ group | upper_first }}
     {%- for commit in commits %}
         - {{ commit.message | upper_first | trim }}\
