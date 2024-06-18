@@ -8,51 +8,53 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 ### Details
 #### Added
-- README file now gives clearer instructions on how to contribute by @andrewendlinger
-- Why u not wokring by @andrewendlinger
-- Removed github-actions bot commits from changelog hist by @andrewendlinger
+- README file now gives clearer instructions on how to contribute by @
+- Why u not wokring by @
+- Removed github-actions bot commits from changelog hist by @
+- Wowo this might work by @
 
 #### Changed
-- Commit message parsing now supports add, remove, fix, change by @andrewendlinger
-- Removed merge commits from changelog listing by @andrewendlinger
-- Adapted commit parsing to not include github bot commits by @andrewendlinger
+- Commit message parsing now supports add, remove, fix, change by @
+- Removed merge commits from changelog listing by @
+- Adapted commit parsing to not include github bot commits by @
 
 #### Fixed
-- Fixed wrong regex commit parsing and processing by @andrewendlinger
-- New cliff config for commit parsing by @andrewendlinger
-- Commit parsing in cliff.toml by @andrewendlinger
-- Fixed commit parsing attempt 4 by @andrewendlinger
-- Removed trash preprocessor by @andrewendlinger
-- Commit parsing loop in cliff.toml by @andrewendlinger
-- Fixed github actions bot filter for commit loop by @andrewendlinger
-- Commit.author.name by @andrewendlinger
-- Revert to functioning version by @andrewendlinger
+- Fixed wrong regex commit parsing and processing by @
+- New cliff config for commit parsing by @
+- Commit parsing in cliff.toml by @
+- Fixed commit parsing attempt 4 by @
+- Removed trash preprocessor by @
+- Commit parsing loop in cliff.toml by @
+- Fixed github actions bot filter for commit loop by @
+- Commit.author.name by @
+- Revert to functioning version by @
 
 #### Other
-- Update changelog by @github-actions[bot]
-- Add changelog generation and version bumping docs by @andrewendlinger
-- Update changelog by @github-actions[bot]
-- Fix fixed the cliff.toml configs back by @andrewendlinger
-- Update changelog by @github-actions[bot]
-- Update changelog by @github-actions[bot]
-- Update changelog by @github-actions[bot]
-- Update changelog by @github-actions[bot]
-- Update changelog by @github-actions[bot]
+- Update changelog by @
+- Add changelog generation and version bumping docs by @
+- Update changelog by @
+- Fix fixed the cliff.toml configs back by @
+- Update changelog by @
+- Update changelog by @
+- Update changelog by @
+- Update changelog by @
+- Update changelog by @
+- Update changelog by @
 
 ## [0.1.0] - 2024-06-18
 ### Details
 #### Other
-- Initial commit by @andrewendlinger
-- Initial commit by @andrewendlinger
-- Changed cliff configs by @andrewendlinger
-- Added Readme file by @andrewendlinger
-- Changed README by @andrewendlinger
-- Added commit to changelog generation by @andrewendlinger
-- NEW COOL CHANGE TO README by @andrewendlinger
-- Changed gitcliff format by @andrewendlinger
-- Update changelog by @github-actions[bot]
-- Update changelog by @github-actions[bot]
-- Bumped version to 0.1.0 by @andrewendlinger
+- Initial commit by @
+- Initial commit by @
+- Changed cliff configs by @
+- Added Readme file by @
+- Changed README by @
+- Added commit to changelog generation by @
+- NEW COOL CHANGE TO README by @
+- Changed gitcliff format by @
+- Update changelog by @
+- Update changelog by @
+- Bumped version to 0.1.0 by @
 
 [unreleased]: https://github.com/andrewendlinger/test_data/compare/v0.1.0..HEAD
 
