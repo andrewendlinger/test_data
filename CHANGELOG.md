@@ -8,22 +8,39 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 ### Details
 #### Added
-- Add changelog generation and version bumping docs by @andrewendlinger
-
-#### Changed
-- Commit message parsing now supports add, remove, fix, change by @andrewendlinger
 - README file now gives clearer instructions on how to contribute by @andrewendlinger
 - Why u not wokring by @andrewendlinger
 
+#### Changed
+- Commit message parsing now supports add, remove, fix, change by @andrewendlinger
+
 #### Fixed
 - Fixed wrong regex commit parsing and processing by @andrewendlinger
+- New cliff config for commit parsing by @andrewendlinger
+
+#### Other
+- Update changelog by @github-actions[bot]
+- Add changelog generation and version bumping docs by @andrewendlinger
+- Update changelog by @github-actions[bot]
+- Fix fixed the cliff.toml configs back by @andrewendlinger
+- Update changelog by @github-actions[bot]
+- Merge branch 'main' of https://github.com/andrewendlinger/test_data by @andrewendlinger
 
 ## [0.1.0] - 2024-06-18
 ### Details
-#### Changed
+#### Other
+- Initial commit by @andrewendlinger
+- Initial commit by @andrewendlinger
+- Changed cliff configs by @andrewendlinger
 - Added Readme file by @andrewendlinger
 - Changed README by @andrewendlinger
+- Added commit to changelog generation by @andrewendlinger
 - NEW COOL CHANGE TO README by @andrewendlinger
+- Changed gitcliff format by @andrewendlinger
+- Update changelog by @github-actions[bot]
+- Merge branch 'main' of https://github.com/andrewendlinger/test_data by @andrewendlinger
+- Update changelog by @github-actions[bot]
+- Bumped version to 0.1.0 by @andrewendlinger
 
 [unreleased]: https://github.com/andrewendlinger/test_data/compare/v0.1.0..HEAD
 
