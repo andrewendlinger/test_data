@@ -30,7 +30,7 @@ body = """
     {%- for commit in commits %}
         {% if commit.author.name == "github-actions[bot]" %}{% continue %}{% endif %}
         - {{ commit.message | upper_first | trim }}\
-            {% if commit.github.username %} by @{{ commit.github.username }}{%- endif -%}
+            {% if commit.github.username %} - ([{{ commit.id | truncate(length=7, end="") }}]($REPO/commit/{{ commit.id }})) - {{ commit.author.name }} {%- endif -%}
             {% if commit.github.pr_number %} in \
               [#{{ commit.github.pr_number }}]({{ self::remote_url() }}/pull/{{ commit.github.pr_number }}) \
             {%- endif -%}
