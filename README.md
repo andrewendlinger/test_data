@@ -1,5 +1,8 @@
 # Test Data for the `hypermri` package
 
+--------
+**v0.1.0**
+--------
 
 ## How to add files:
 
