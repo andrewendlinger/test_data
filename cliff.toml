@@ -27,9 +27,9 @@ body = """
 
 {% for group, commits in commits | filter(attribute="merge_commit", value=false) | group_by(attribute="group")%}
     #### {{ group | upper_first }}
-    {%- for commit in commits %}
+    {%- for commit in commits | | filter(attribute="github.username", value="github-actions[bot]", value=false) |%}
         - {{ commit.message | upper_first | trim }}\
-            {% if commit.github.username and commit.github.username != "github-actions[bot]" %} by @{{ commit.github.username }}{%- endif -%}
+            {% if commit.github.username %} by @{{ commit.github.username }}{%- endif -%}
             {% if commit.github.pr_number %} in \
               [#{{ commit.github.pr_number }}]({{ self::remote_url() }}/pull/{{ commit.github.pr_number }}) \
             {%- endif -%}
