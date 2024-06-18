@@ -10,6 +10,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 #### Added
 - Add changelog generation and version bumping docs by @andrewendlinger
 
+#### Changed
+- Commit message parsing now supports add, remove, fix, change by @andrewendlinger
+- README file now gives clearer instructions on how to contribute by @andrewendlinger
+- Why u not wokring by @andrewendlinger
+
+#### Fixed
+- Fixed wrong regex commit parsing and processing by @andrewendlinger
+
 ## [0.1.0] - 2024-06-18
 ### Details
 #### Changed
