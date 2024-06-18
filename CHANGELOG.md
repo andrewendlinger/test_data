@@ -27,6 +27,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Adapted commit parsing to not include github bot commits - ([eb3d75d](https://github.com/andrewendlinger/test_data/commit/eb3d75da9786c19f398dee6df3e788dfce5e5c94)) - Andrecho
 
+- Restructured and improved README.md - ([a08f3c1](https://github.com/andrewendlinger/test_data/commit/a08f3c12ea72fdbf17abb14238dd53db9a5ef7aa)) - Andrecho
+
 #### Fixed
 
 - Fixed wrong regex commit parsing and processing - ([2153d0a](https://github.com/andrewendlinger/test_data/commit/2153d0af15d5a5b0bf3d9cfd7ad9f2e2e99eb7b4)) - Andrecho
@@ -84,6 +86,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Lez try again - ([e157b20](https://github.com/andrewendlinger/test_data/commit/e157b209d12f67cc16f35684111236625c1ee320)) - Andrecho
 
 - Bot only - ([6c4ce53](https://github.com/andrewendlinger/test_data/commit/6c4ce53f16d2331bb38190ab2b9230c149e114d8)) - Andrecho
+
 
 
 
