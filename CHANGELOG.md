@@ -9,29 +9,102 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Details
 #### Added
 
+- README file now gives clearer instructions on how to contribute by @andrewendlinger
+
+- Why u not wokring by @andrewendlinger
+
+- Removed github-actions bot commits from changelog hist by @andrewendlinger
+
+- Wowo this might work by @andrewendlinger
+
 #### Changed
+
+- Commit message parsing now supports add, remove, fix, change by @andrewendlinger
+
+- Removed merge commits from changelog listing by @andrewendlinger
+
+- Adapted commit parsing to not include github bot commits by @andrewendlinger
 
 #### Fixed
 
+- Fixed wrong regex commit parsing and processing by @andrewendlinger
+
+- New cliff config for commit parsing by @andrewendlinger
+
+- Commit parsing in cliff.toml by @andrewendlinger
+
+- Fixed commit parsing attempt 4 by @andrewendlinger
+
+- Removed trash preprocessor by @andrewendlinger
+
+- Commit parsing loop in cliff.toml by @andrewendlinger
+
+- Fixed github actions bot filter for commit loop by @andrewendlinger
+
+- Commit.author.name by @andrewendlinger
+
+- Revert to functioning version by @andrewendlinger
+
+- This might work by @andrewendlinger
+
+- Tis might work by @andrewendlinger
+
+- Finally working version which skipps both merge and bot commits by @andrewendlinger
+
 #### Other
-- Update changelog by @github-actions[bot]
-- Update changelog by @github-actions[bot]
-- Update changelog by @github-actions[bot]
-- Update changelog by @github-actions[bot]
-- Update changelog by @github-actions[bot]
-- Update changelog by @github-actions[bot]
-- Update changelog by @github-actions[bot]
-- Update changelog by @github-actions[bot]
-- Update changelog by @github-actions[bot]
-- Update changelog by @github-actions[bot]
-- Update changelog by @github-actions[bot]
-- Update changelog by @github-actions[bot]
+
+
+- Add changelog generation and version bumping docs by @andrewendlinger
+
+
+- Fix fixed the cliff.toml configs back by @andrewendlinger
+
+
+
+
+
+
+
+
+
+- Pls work by @andrewendlinger
+
+- Debug by @andrewendlinger
+
+
+- Debug by @andrewendlinger
+
+- Debug2 by @andrewendlinger
+
+
+- Lez try again by @andrewendlinger
+
+- Bot only by @andrewendlinger
+
 
 ## [0.1.0] - 2024-06-18
 ### Details
 #### Other
-- Update changelog by @github-actions[bot]
-- Update changelog by @github-actions[bot]
+
+- Initial commit by @andrewendlinger
+
+- Initial commit by @andrewendlinger
+
+- Changed cliff configs by @andrewendlinger
+
+- Added Readme file by @andrewendlinger
+
+- Changed README by @andrewendlinger
+
+- Added commit to changelog generation by @andrewendlinger
+
+- NEW COOL CHANGE TO README by @andrewendlinger
+
+- Changed gitcliff format by @andrewendlinger
+
+
+
+- Bumped version to 0.1.0 by @andrewendlinger
 
 [unreleased]: https://github.com/andrewendlinger/test_data/compare/v0.1.0..HEAD
 
