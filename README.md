@@ -34,7 +34,7 @@ Next to the BrukerExp folders, general study related files are handled as follow
 ❯ touch .gitattributes
 ```
 
-3. Inside .gitattributes write:
+3. Use 'git lfs track...' or inside .gitattributes write:
 ```
 fid filter=lfs diff=lfs merge=lfs -text
 2dseq filter=lfs diff=lfs merge=lfs -text
