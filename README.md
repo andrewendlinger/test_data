@@ -38,6 +38,9 @@ Next to the BrukerExp folders, general study related files are handled as follow
 ```
 fid filter=lfs diff=lfs merge=lfs -text
 2dseq filter=lfs diff=lfs merge=lfs -text
+*.bin filter=lfs diff=lfs merge=lfs -text
+*.asc filter=lfs diff=lfs merge=lfs -text
+*.scanProgram filter=lfs diff=lfs merge=lfs -text
 ```
 
 4. Commit and push
