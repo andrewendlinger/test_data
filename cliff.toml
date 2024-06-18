@@ -26,7 +26,12 @@ body = """
 ### Details
 
 {% for group, commits in commits | group_by(attribute="group") %}
-    {% set filtered_commits = commits | filter(attribute="merge_commit", value=false) | filter(attribute="github.username", value="github-actions[bot]", invert=true) %}
+    {% set filtered_commits = [] %}
+    {% for commit in commits %}
+        {% if not commit.merge_commit and commit.github.username != "github-actions[bot]" %}
+            {% set _ = filtered_commits.append(commit) %}
+        {% endif %}
+    {% endfor %}
     {% if filtered_commits | length > 0 %}
         #### {{ group | upper_first }}
         {%- for commit in filtered_commits %}
@@ -38,6 +43,7 @@ body = """
         {% endfor %}
     {% endif %}
 {% endfor %}
+
 
 
 {%- if github.contributors | filter(attribute="is_first_time", value=true) | length != 0 %}
