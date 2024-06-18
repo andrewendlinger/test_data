@@ -67,7 +67,7 @@ Version bumping is semi-automatic. Follow these steps to update the version:
 
 2. **Update Version and Commit**
 
-    Update the version in the `README.md` file and commit the change:
+    Update the version in the `README.md` file and commit the change. Additionally, create a tag for that specific version.
 
     ```bash
     ❯ git add README.md
@@ -76,17 +76,20 @@ Version bumping is semi-automatic. Follow these steps to update the version:
     ❯ git push origin main --tags
     ```
 
+The changelog and version are now automatically updated.
+
 3. **Pull the Latest Changes**
 
-    To avoid merge conflicts, pull the latest changes:
+    To avoid merge conflicts, pull the latest changes made by GitHub on the remote repository:
 
     ```bash
     ❯ git pull
     ```
 
-The changelog and version are now automatically updated.
 
-### 2.3 Initial Setup
+------
+
+## 3. Initial Setup
 
 1. **Initialize Git LFS**
 
@@ -119,3 +122,5 @@ The changelog and version are now automatically updated.
     ❯ git commit -m "Configure Git LFS to track e.g., fid, 2dseq files"
     ❯ git push origin main
     ```
+
++ Install [git-cliff](https://git-cliff.org).
