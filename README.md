@@ -54,11 +54,31 @@ git push origin main
 ```
 
 
-#### Github Actions
+#### Changelog 
 
-Currently we have to actions:
+The changelog is automatically generated from the commit messages using [git-cliff](https://git-cliff.org).
 
-1. Automatically bump version
-2. Automatically generate (a very rudimentary) change log
+Git-cliff is configured in the `./cliff.toml` file and is integrated into GitHub actions via the `.github/workflows/gitcliff.yml` file.
 
-Both functionalities are in seperate scripts, but are executed from a single github action file.
+Depending on your commit message, the commit will appear in the changelog:
+
+table MISSING
+
+
+#### Version Bumping
+
+Version Bumping is done semi-automatic. While git-cliff suggests the correct version, a tag has to be manually created and a dedicated commit should be generated. The workflow goes as follows:
+
+```bash
+❯ git cliff --bumped-version
+v0.1.0
+```
+
+Update version in `README.md` file to this newly suggested version (in this case v0.1.0), then:
+
+```bash
+❯ git add README.md
+❯ git commit -m "Bumped version to v0.1.0"
+❯ git tag v0.1.0
+❯ git push origin main --tags
+```
