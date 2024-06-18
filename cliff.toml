@@ -27,7 +27,7 @@ body = """
 
 {% for group, commits in commits | filter(attribute="merge_commit", value=false) | group_by(attribute="group")%}
     #### {{ group | upper_first }}
-    {%- for commit in commits  | filter(attribute="github.username", value="github-actions[bot]") | negate %}
+      %- for commit in commits if commit.github_username != "github-actions[bot]" %}
         - {{ commit.message | upper_first | trim }}\
             {% if commit.github.username %} by @{{ commit.github.username }}{%- endif -%}
             {% if commit.github.pr_number %} in \
