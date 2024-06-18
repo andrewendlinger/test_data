@@ -81,24 +81,24 @@ commit_preprocessors = [
     { pattern = '\((\w+\s)?#([0-9]+)\)', replace = "" },
 ]
 ## regex for parsing and grouping commits [andre: ORIGINAL]
-# commit_parsers = [
-#     { message = "^.*: add", group = "Added" },
-#     { message = "^.*: support", group = "Added" },
-#     { message = "^.*: remove", group = "Removed" },
-#     { message = "^.*: delete", group = "Removed" },
-#     { message = "^test", group = "Fixed" },
-#     { message = "^fix", group = "Fixed" },
-#     { message = "^.*: fix", group = "Fixed" },
-#     { message = "^.*", group = "Changed" },
+commit_parsers = [
+    { message = "^.*: add", group = "Added" },
+    { message = "^.*: support", group = "Added" },
+    { message = "^.*: remove", group = "Removed" },
+    { message = "^.*: delete", group = "Removed" },
+    { message = "^test", group = "Fixed" },
+    { message = "^fix", group = "Fixed" },
+    { message = "^.*: fix", group = "Fixed" },
+    { message = "^.*", group = "Changed" },
 ]
 # regex for parsing and grouping commits [andre: ADAPTED]
-commit_parsers = [
-    { message = "^add:", group = "Added" },
-    { message = "^remove:", group = "Removed" },
-    { message = "^fix:", group = "Fixed" },
-    { message = "^change:", group = "Changed" },
-    { message = "^.*", group = "Other" },
-]
+# commit_parsers = [
+#     { message = "^add:", group = "Added" },
+#     { message = "^remove:", group = "Removed" },
+#     { message = "^fix:", group = "Fixed" },
+#     { message = "^change:", group = "Changed" },
+#     { message = "^.*", group = "Other" },
+# ]
 # protect breaking changes from being skipped due to matching a skipping commit_parser
 protect_breaking_commits = false
 # filter out the commits that are not matched by commit parsers
