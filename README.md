@@ -1,8 +1,6 @@
 # Test Data for the `hypermri` package
 
---------
-**v0.1.0**
---------
+> _Current Version: v0.1.0_
 
 ## How to Add Files
 

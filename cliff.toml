@@ -26,7 +26,7 @@ body = """
 ### Details
 
 {% for group, commits in commits | group_by(attribute="group") %}
-    {% set filtered_commits = commits | filter(attribute="merge_commit", value=false) %}
+    {% set filtered_commits = commits | filter(attribute="merge_commit", value=false) | filter(attribute="github.username", value="github-actions[bot]", invert=true) %}
     {% if filtered_commits | length > 0 %}
         #### {{ group | upper_first }}
         {%- for commit in filtered_commits %}
