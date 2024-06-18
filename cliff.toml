@@ -79,7 +79,6 @@ split_commits = false
 commit_preprocessors = [
     # remove issue numbers from commits
     { pattern = '\((\w+\s)?#([0-9]+)\)', replace = "" },
-    { pattern = "^add:\s+(.*)", replace = "\1" },
 ]
 ## regex for parsing and grouping commits [andre: ORIGINAL]
 # commit_parsers = [
