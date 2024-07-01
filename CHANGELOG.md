@@ -94,6 +94,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Minor README edit - ([349dccf](https://github.com/andrewendlinger/test_data/commit/349dccf319190bde24e90826773d4d7ac5be36e9)) - Andrecho
 
 
+
+- Update README.md - ([fc0c4d6](https://github.com/andrewendlinger/test_data/commit/fc0c4d6f3295693bcba23bc0343170293f03b30c)) - Andrecho
+
 ## [0.1.0] - 2024-06-18
 ### Details
 #### Other
