@@ -1,6 +1,6 @@
 # Test Data for the `hypermri` Package
 
-![Rye](https://img.shields.io/badge/Rye-XYZ-blue)
+[![Rye](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/rye/main/artwork/badge.json)](https://rye.astral.sh)
 
 ## 1. Adding Test Data
 
