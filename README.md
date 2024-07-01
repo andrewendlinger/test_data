@@ -1,6 +1,6 @@
 # Test Data for the `hypermri` Package
 
-> _Current Version: v0.1.0_
+![Rye](https://img.shields.io/badge/Rye-XYZ-blue)
 
 ## 1. Adding Test Data
 
